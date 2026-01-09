@@ -1,0 +1,41 @@
+[general]
+# Import theme rose-pine
+# https://github.com/rose-pine/alacritty
+import = ["~/.config/alacritty/rose-pine.toml"]
+
+[window]
+opacity = 0.9
+padding.x = 10
+padding.y = 10
+#decorations_theme_variant = "Light" # "Dark"
+
+# Fonts
+# https://wiki.archlinux.org/title/Alacritty#Font
+[font]
+size = 12.0
+[font.normal]
+family = "MesloLGS NF"
+#[font.bold]
+#family = "Source Code Pro"
+#style = "Bold"
+#[font.bold_italic]
+#family = "Source Code Pro"
+#style = "Bold Italic"
+#[font.italic]
+#family = "Source Code Pro"
+#style = "Italic"
+#[font.normal]
+#family = "Source Code Pro"
+#style = "Regular"
+
+# Spawn new instance in same directory
+# https://wiki.archlinux.org/title/Alacritty#Spawn_new_instance_in_same_directory
+[keyboard]
+bindings = [
+   { key = "Return", mods = "Control|Shift", action = "SpawnNewInstance" }
+]
+
+
+# https://alacritty.org/config-alacritty.html#terminal
+[terminal]
+shell = "/home/jon/zellij"
