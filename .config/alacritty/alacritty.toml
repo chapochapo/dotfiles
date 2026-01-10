@@ -39,4 +39,4 @@ bindings = [
 
 # https://alacritty.org/config-alacritty.html#terminal
 [terminal]
-shell = "/home/jon/zellij"
+shell = "zellij"
