@@ -12,3 +12,4 @@ sudo pacman -S \
   zellij
 
 cp .zshrc ~/.zshrc
+cp .config/alacritty/alacritty.toml ~/.config/alacritty/alacritty.toml
