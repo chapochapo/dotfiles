@@ -8,10 +8,7 @@ sudo pacman -S \
   zsh zsh-autosuggestions zsh-completions zsh-syntax-highlighting \
   fastfetch \
   code \
-  fzf eza bat btop
-
-wget https://github.com/zellij-org/zellij/releases/download/v0.43.1/zellij-x86_64-unknown-linux-musl.tar.gz -P ~/
-tar -xvf ~/zellij*.tar.gz
-chmod +x ~/zellij
+  fzf eza bat btop \
+  zellij
 
 cp .zshrc ~/.zshrc
