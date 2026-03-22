@@ -1,0 +1,38 @@
+# Core utilities
+wget
+curl
+git
+less
+tree
+
+# Shell & CLI enhancements
+zsh
+zsh-autosuggestions
+zsh-completions
+zsh-syntax-highlighting
+fastfetch
+
+# Terminal & multiplexer
+alacritty
+zellij
+
+# Development
+code
+lazygit
+
+# CLI tools & utilities
+fzf
+eza
+bat
+btop
+
+# Media
+signal-desktop
+vlc
+vlc-plugins-all
+
+# Fonts
+ttf-meslo-nerd
+
+# VPN
+proton-vpn-gtk-app

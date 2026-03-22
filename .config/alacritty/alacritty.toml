@@ -13,21 +13,8 @@ startup_mode = "Maximized"
 # Fonts
 # https://wiki.archlinux.org/title/Alacritty#Font
 [font]
-size = 12.0
-[font.normal]
-family = "MesloLGS NF"
-#[font.bold]
-#family = "Source Code Pro"
-#style = "Bold"
-#[font.bold_italic]
-#family = "Source Code Pro"
-#style = "Bold Italic"
-#[font.italic]
-#family = "Source Code Pro"
-#style = "Italic"
-#[font.normal]
-#family = "Source Code Pro"
-#style = "Regular"
+normal = { family = "MesloLGM Nerd Font Mono", style = "Regular" }
+size = 14
 
 # Spawn new instance in same directory
 # https://wiki.archlinux.org/title/Alacritty#Spawn_new_instance_in_same_directory
