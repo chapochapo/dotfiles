@@ -40,3 +40,6 @@ bindkey "^W" backward-kill-word  # Ctrl+Backspace
 # Home/End keys
 bindkey "^[[H" beginning-of-line
 bindkey "^[[F" end-of-line
+
+# Treat only _ as a part of a word, enables alt+backspace on path
+WORDCHARS='_'
