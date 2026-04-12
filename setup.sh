@@ -42,6 +42,7 @@ install -D "$DOTFILES_DIR/.config/alacritty/alacritty.toml" ~/.config/alacritty/
 install -D "$DOTFILES_DIR/.config/alacritty/rose-pine-dawn.toml" ~/.config/alacritty/rose-pine-dawn.toml
 install -D "$DOTFILES_DIR/.config/alacritty/rose-pine-moon.toml" ~/.config/alacritty/rose-pine-moon.toml
 install -D "$DOTFILES_DIR/.config/alacritty/rose-pine.toml" ~/.config/alacritty/rose-pine.toml
+install -D "$DOTFILES_DIR/.config/btop/btop.conf" ~/.config/btop/btop.conf
 
 echo "Changing shell to zsh..."
 ZSH_PATH="$(which zsh)"
