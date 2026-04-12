@@ -6,6 +6,9 @@ fpath=(/usr/share/zsh/site-functions $fpath)
 # Enable completion
 autoload -Uz compinit && compinit
 
+# Enable case-insensitive completion
+zstyle ':completion:*' matcher-list 'm:{a-zA-Z}={A-Za-z}'
+
 # Source plugins from pacman
 source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
