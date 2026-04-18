@@ -36,3 +36,7 @@ ttf-meslo-nerd
 
 # VPN
 proton-vpn-gtk-app
+
+# Image handling
+qwenview
+kolourpaint
