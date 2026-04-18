@@ -1,5 +1,9 @@
 fastfetch
 
+# EN US locale for shell
+export LC_ALL=en_US.UTF-8
+export LANG=en_US.UTF-8
+
 # Add zsh-completions to fpath
 fpath=(/usr/share/zsh/site-functions $fpath)
 
