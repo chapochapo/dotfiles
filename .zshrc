@@ -63,14 +63,3 @@ setopt HIST_IGNORE_ALL_DUPS  # remove older duplicate entries
 setopt HIST_IGNORE_SPACE     # skip entries starting with a space
 setopt HIST_REDUCE_BLANKS    # trim extra whitespace
 
-# Persistent history
-HISTFILE=~/.zsh_history
-HISTSIZE=10000
-SAVEHIST=10000
-setopt APPEND_HISTORY        # append rather than overwrite
-setopt INC_APPEND_HISTORY    # write immediately, not on shell exit
-setopt SHARE_HISTORY         # share history across sessions
-setopt HIST_IGNORE_DUPS      # skip duplicate consecutive entries
-setopt HIST_IGNORE_ALL_DUPS  # remove older duplicate entries
-setopt HIST_IGNORE_SPACE     # skip entries starting with a space
-setopt HIST_REDUCE_BLANKS    # trim extra whitespace
